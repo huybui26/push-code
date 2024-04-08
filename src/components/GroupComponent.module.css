@@ -1,0 +1,122 @@
+.newsContent,
+.newsContent1 {
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+}
+.newsContent {
+  width: 100%;
+  right: 0;
+  left: 0;
+  background-color: var(--color-steelblue-200);
+}
+.newsContent1 {
+  width: 255px;
+  left: 314px;
+  background-color: var(--color-lightblue);
+  z-index: 1;
+}
+.khuynMi,
+.snPhm {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+}
+.snPhm {
+  width: 154px;
+  color: var(--color-black);
+  flex-shrink: 0;
+  z-index: 2;
+}
+.khuynMi {
+  width: 177px;
+  z-index: 1;
+}
+.khuynMiWrapper {
+  width: 414px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.hTr,
+.tinTc {
+  position: relative;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.tinTc {
+  align-self: stretch;
+  width: 106px;
+  font-weight: 600;
+  display: none;
+  z-index: 4;
+}
+.hTr {
+  margin: 0;
+  width: 95px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 95px;
+  z-index: 1;
+}
+.bichevronDownIcon {
+  height: 33px;
+  width: 33px;
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  left: 519px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.newsContentParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-317xl) var(--padding-6xs-2);
+  position: relative;
+  gap: var(--gap-143xl-5);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1225px) {
+  .newsContentParent {
+    gap: 162.5px 81px;
+    padding-left: var(--padding-149xl);
+    padding-right: var(--padding-149xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .newsContentParent {
+    gap: 162.5px 41px;
+    padding-left: var(--padding-65xl);
+    padding-right: var(--padding-65xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .newsContentParent {
+    gap: 162.5px 20px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
